@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restored Image</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b0e0e6; /* Powder Blue */
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h1>Original Image</h1>
+    <img src="{{ image_path }}" alt="Original Image">
+    <h1>Restored Image</h1>
+    <img src="{{ restored_image_path }}" alt="Restored Image">
+</body>
+</html>
